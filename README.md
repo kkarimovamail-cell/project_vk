@@ -7,7 +7,7 @@
 
 **Основные характеристики:**
 - **Цель:** предсказать вероятность совершения пользователем целевого действия
-- **Объём выборки:** 247 972 строки, 1 360 признаков
+- **Объем выборки:** 247 972 строки, 1 360 признаков
 - **Дисбаланс классов:** целевое событие составляет всего 1,35%
 - **Результат:** лучшая модель LightGBM достигла ROC-AUC = 0,6868
 
@@ -21,30 +21,35 @@ cd project_vk
 ### 2. Создание и активация виртуального окружения
 
 Linux / MacOS:
-
-```bash
+```
 python3 -m venv venv
-source venv/bin/activate```
-Windows:
+source venv/bin/activate
+```
 
-```bash
+Windows:
+```
 python -m venv venv
-venv\Scripts\activate```
+venv\Scripts\activate
+```
 
 ## Использование
 
 ### 1. Запуск EDA (разведочный анализ данных)
 
-```bash
-jupyter notebook notebooks/EDA.ipynb```
+```
+jupyter notebook notebooks/EDA.ipynb
+```
 ### 2. Feature Engineering и обучение моделей
 
-```bash
-jupyter notebook notebooks/FE_Modeling.ipynb```
+```
+jupyter notebook notebooks/FE_Modeling.ipynb
+```
+
 ###  3. Запуск AutoGluon (экспериментальный)
 
-```bash
-jupyter notebook notebooks/AutoGluon.ipynb```
+```
+jupyter notebook notebooks/AutoGluon.ipynb
+```
 
 ## Структура проекта
 
@@ -111,6 +116,7 @@ CatBoost	0,5901
 Бинаризация ненулевых значений повышает качество
 Логарифмирование скошенных признаков улучшает качество
 PCA и кластеризация не ухудшают качество
+
 ### 4. Сложности
 
 SMOTE — переполнение памяти (миллионы синтетических примеров)
