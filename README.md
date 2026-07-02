@@ -14,8 +14,10 @@
 ## Установка
 
 ### 1. Клонирование репозитория
-```git clone https://github.com/kkarimovamail-cell/project_vk.git
-cd project_vk```
+```
+git clone https://github.com/kkarimovamail-cell/project_vk.git
+cd project_vk
+```
 ### 2. Создание и активация виртуального окружения
 
 Linux / MacOS:
