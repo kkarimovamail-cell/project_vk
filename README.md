@@ -14,20 +14,20 @@
 ## Установка
 
 ### 1. Клонирование репозитория
-```
+```bash
 git clone https://github.com/kkarimovamail-cell/project_vk.git
 cd project_vk
 ```
 ### 2. Создание и активация виртуального окружения
 
 Linux / MacOS:
-```
+```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
 Windows:
-```
+```bash
 python -m venv venv
 venv\Scripts\activate
 ```
@@ -36,18 +36,18 @@ venv\Scripts\activate
 
 ### 1. Запуск EDA (разведочный анализ данных)
 
-```
+```bash
 jupyter notebook notebooks/EDA.ipynb
 ```
 ### 2. Feature Engineering и обучение моделей
 
-```
+```bash
 jupyter notebook notebooks/FE_Modeling.ipynb
 ```
 
 ###  3. Запуск AutoGluon (экспериментальный)
 
-```
+```bash
 jupyter notebook notebooks/AutoGluon.ipynb
 ```
 
